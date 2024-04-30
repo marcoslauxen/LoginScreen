@@ -1,0 +1,124 @@
+.box {
+  background-color: rgb(238, 238, 238);
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  padding: 0 16px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-bottom: 2px solid #000000;
+  background-color: rgb(238, 238, 238);
+  outline: none;
+  font-size: 14px;
+}
+
+#email {
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.title-home {
+  font-size: 68px;
+  color: #ffffff;
+}
+
+.link {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 16px;
+  margin: 10px 0 30px 0;
+}
+
+.box a {
+  font-size: 14px;
+}
+
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.btn-cadastrar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+  margin-top: 20px;
+}
+
+.btn-alterar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+  margin-top: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 100px;
+  border: none;
+  background-color: #2b7ec2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+button:active {
+  background-color: #000000;
+  opacity: 0.9;
+}
+
+p {
+  color: #004080;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.redes-sociais {
+  width: 100%;
+  padding: 0 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.icone {
+  font-size: 34px;
+  color: #000000;
+}
+
+@media only screen and (max-width: 600px) {
+  .box {
+    width: 90%;
+  }
+}
