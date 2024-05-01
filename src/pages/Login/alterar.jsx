@@ -65,7 +65,7 @@ const Alterar = ({ stored, setStored }) => {
         />
         <label htmlFor="newPassword">Nova Senha</label>
         <input
-          type="password"
+          type="text"
           name="newPassword"
           id="newPassword"
           placeholder="Digite sua nova senha"

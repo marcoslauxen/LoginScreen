@@ -11,6 +11,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("./assets/background.jpg") no-repeat center center;
+  background: url("./assets/back.jpg") no-repeat center center;
   background-size: cover;
 }
